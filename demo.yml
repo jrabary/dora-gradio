@@ -1,0 +1,13 @@
+nodes:
+  - id: ui
+    path: uv
+    args: run python ui_node.py
+    inputs:
+      observations: environment/observations
+    outputs:
+      - instruction
+  - id: environment
+    path: uv
+    args: run python driver_node.py
+    outputs:
+      - observations
