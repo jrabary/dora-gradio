@@ -8,7 +8,7 @@ First, install uv package manager and dora-cli
 Next, install the required packages:
 
 ```bash
-cd ui-poc
+cd dora-gradio
 uv sync
 ```
 
